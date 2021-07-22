@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/neuromeka/NRMKPlatformPC2/bin/i686/ethercat/include/ecrt.h
+asm/byteorder.h
+-
+linux/types.h
+-
+linux/time.h
+-
+stdlib.h
+-
+stdint.h
+-
+sys/time.h
+-
+
+/opt/neuromeka/NRMKPlatformPC2/example/workspace/HYU_SPA/lib/EcatSystem/PDOConfig.c
+PDOConfig.h
+/opt/neuromeka/NRMKPlatformPC2/example/workspace/HYU_SPA/lib/EcatSystem/PDOConfig.h
+
+/opt/neuromeka/NRMKPlatformPC2/example/workspace/HYU_SPA/lib/EcatSystem/PDOConfig.h
+ecrt.h
+/opt/neuromeka/NRMKPlatformPC2/example/workspace/HYU_SPA/lib/EcatSystem/ecrt.h
+
